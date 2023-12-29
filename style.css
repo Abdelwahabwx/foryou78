@@ -1,0 +1,45 @@
+
+ *{
+    font-family:Arial, Helvetica, sans-serif ;
+    color: rgba(255,255,255,0.7);
+    
+   }
+   h1{
+    text-align: center;
+    color: rgba(255,255,255,0.7);
+   }
+   body{
+    background: no-repeat url('pic1.jpg');
+    background-size: cover;
+   }
+   .container2{
+     display: grid;
+     place-items: center;
+     height: 100hv;
+   }
+   .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .container {
+     border: 2px solid rgba(255,255,255,0.7);
+     border-radius: 20px;
+    direction: rtl;
+      height: 100hv;
+      width: auto;
+      backdrop-filter: blur(10px);
+      padding: 10px;
+   }
+   p{
+    font-size: large;
+    font-weight: 500;
+   }
+   .english{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+   }
